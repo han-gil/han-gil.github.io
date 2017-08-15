@@ -46,7 +46,7 @@ d3.csv('data/aa.csv', function(data) {
 
   var range = parcoords.height() - parcoords.margin().top - parcoords.margin().bottom;
   var nihscale = d3.scale.linear().domain([0, 39]).range([range, 0.02*range]);
-  var mrsscale = d3.scale.ordinal().domain(["0", "1", "2", "3", "4", "5", "6"]).range([range, 0.91*range, 0.76*range, 0.65*range, 0.33*range, 0.05*range, 0.02*range]);
+  var mrsscale = d3.scale.ordinal().domain(["0", "1", "2", "3", "4", "5-6", "5-6"]).range([range, 0.91*0.98*range, 0.76*0.98*range, 0.65*0.98*range, 0.33*0.98*range, 0.02*range, 0.02*range]);
 
   var dimensions = {
     'NIH.Adm': {
