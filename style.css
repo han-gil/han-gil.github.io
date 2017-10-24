@@ -1,8 +1,7 @@
 body {
   font-size: 14px;
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
-  margin: 50px auto 20px;
-  width: 720px;
+  margin: 24px;
   background: #fcfcfc;
   line-height: 1.45em;
 }
@@ -19,17 +18,6 @@ ul {
 .dark {
   background: #222;
 }
-#example0,
-#example,
-#example-axes,
-#example1,
-#example2,
-#example3,
-#example-zscore,
-#example-progressive {
-  height: 200px;
-  margin: 12px 0;
-}
 p {
   width: 560px;
 }
@@ -39,7 +27,6 @@ pre {
   padding: 4px 8px;
   background: #f2f2f2;
   border: 1px solid #ccc;
-  word-wrap: auto;
 }
 h1 small {
   font-weight: normal;
